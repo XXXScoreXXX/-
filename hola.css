@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo h1 {
+    font-size: 29px;
+    color: #f0f0f0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+    
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    /*items*/
+}
+.moto img {
+    width: 500px;
+    height: 350px; 
+    margin: 15px;
+}
+.hi {
+    background-color: #333;
+    color: #f0f0f0;
+    margin: 15px;
+    border-radius: 10px;
+    align-content: center;
+    height: 50px;
+}
+.titulo{
+    margin: 15px;
+    font-size: 50px;
+}
+.titulo2{
+    color: #ff9900;
+    margin: 15px;
+    font-size: 30px;
+}
+.moto-img {
+    width: 100%; /* Ajusta el tamaño de la imagen */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Añade transición para suavizar el cambio */
+    margin: 15px;
+}
+
+.moto-img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón */
+    filter: brightness(1.2); /* Aumenta el brillo de la imagen */
+}
+
+.texto-hover {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.texto-hover:hover {
+    color: rgb(255, 94, 0);
+    transform: scale(1.2);
+}
+.texto{
+    margin: 15px;
+}
+.video {
+    margin: 15px;
+}
